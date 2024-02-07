@@ -1,0 +1,4 @@
+step1:
+df.Date = pd.to_datetime(df.Date, format='%m/%d/%Y)
+step2:
+df.Date.dt.month
